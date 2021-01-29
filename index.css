@@ -115,3 +115,41 @@ div.redes {
     min-width: 400px;  
 }
 /* fin estilo redes sociales */
+
+/* inicio estilo contenido en 2 bloques pagina principal */
+.mitad {
+    /*   width: 45%; */
+      display: inline-block;
+   
+  }
+  
+  .bloqueizq {
+  text-align: right; 
+  margin-left: 5%;
+  margin-right: 5%; 
+  }
+  
+  .fotoizquierda img {
+  width: 200px; 
+  /* object-fit: cover; */
+  }
+  
+  .bloquederecha {
+      text-align: left; 
+      margin-left: 5%;
+      margin-right: 5%; 
+      }
+      
+      .fotoderecha img {
+      width: 200px; 
+      /* object-fit: cover; */
+      }
+  
+  
+      .mitad2 {
+  /*         width:30%;
+          display: inline-block;
+          vertical-align: top; */
+          margin-top: 15%; 
+      }
+  /* FIN inicio estilo contenido en 2 bloques pagina principal */
