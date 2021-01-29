@@ -273,3 +273,31 @@ div.redes {
     background-color: rgb(204, 199, 199);
 }
   /* FIN estilo footer  */
+
+
+  
+@media (min-width: 401px)
+{
+    nav span {
+        background-color: var(--verde);
+        display: inline-block;
+        /* display:  block; */
+        text-align: center;
+    /*  font-size: 10px; */
+        /* vertical-align: top; */
+    /*    line-height: 64px; */
+    /*    width: 50px;   */
+        /* min-width: 80px;   */
+    }
+
+    nav span a {
+    /*     text-decoration: none;
+        line-height: 64px;
+        color:rgb(255, 255, 255); */
+    
+        font-weight: 200;
+        font-size: medium;
+    
+    }
+
+}
