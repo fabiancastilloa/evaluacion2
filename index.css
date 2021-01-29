@@ -18,8 +18,13 @@
 
 .logo{
     background-color:var(--verdeclaro);
-    height: 64px;
+    height: 64px;    
 }
+
+/* .logo img{
+    width: 100%; 
+    min-width: 64px; 
+} */
 
 /* inicio estilo menu */
 nav span {
@@ -38,7 +43,7 @@ nav span a {
     text-decoration: none;
     line-height: 64px;
     color:rgb(255, 255, 255);
-    font-weight: 600;
+    font-weight: 550;
     font-size:large;
   
 }
@@ -69,3 +74,44 @@ nav {
 }
 
 /* FIN estilo foto grande principal */
+
+/* inicio estilo redes sociales */
+div.redes i {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    text-align:center;
+    border-radius: 25px;
+    color:#6DCCAA;
+   
+  /*   vertical-align:top; */
+    line-height: 50px;
+    
+/*  margin-top: 8px; */
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+div.redes {
+   /*  vertical-align:center; */
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    text-align: center;
+    /* display: block; */
+
+    /* minimo 400px para que no se vean en columna */
+   /*  min-width: 400px; */
+    width: 100%;   
+}
+
+.redes {
+    padding-top: 15ch;
+    background-color:var(--verdeclaro);
+
+    /* hace que la fila redes no se ordene 
+    en columnas, solo fila con resolucion baja*/
+    min-width: 400px;  
+}
+/* fin estilo redes sociales */
