@@ -360,5 +360,80 @@ div.redes {
         }    
     /* FIN estilo foto grande principal */
  
+    /* inicio estilo galeria mixta para resolucion mayor   */
+ 
+.contenedor{
+    display:grid;
+    grid-template-columns: auto auto auto;
+
+    grid-template-rows: 48px 
+                        48px
+                        48px 
+                        48px 
+                        48px
+                        48px  
+                        48px ; 
+    }
+    
+    .item{
+   
+    background-color:var(--verdeclaro);
+
+    /* este borde solo se hizo para diseñar la tabla  */
+    border : 1px solid ;
+
+    text-align: center; 
+    /* height: 6ch; */
+    }
+    
+  
+    /* inicio estilo galeria  */
+.fotoperrochica{
+    /*  height: 80px; */
+     width: 80px;
+     overflow: hidden;
+    /*  height: 50%; */
+/*     display:block;
+    margin:0px auto; */
+
+ }
+ 
+ #ft1, #ft4, #ft7{
+     width: 130px;
+     height: 80px;
+
+    width: 100%;
+    height: 100%;
+ }
+ 
+ #ft2, #ft5 {
+     width: 80px;
+     height: 130px;
+
+     width: 100%;
+     height: 100%;
+ }
+ 
+ #ft3  {
+     width: 120px;
+     height: 130px;
+
+     width: 100%;
+     height: 100%;
+ }
+ 
+ #ft6  {
+     width: 130px;
+     height: 80px;
+
+     width: 100%;
+     height: 100%;
+ }
+  
+/* FIN galeria mixta para resolucion mayor que 400 */
+
+
 
 }
+
+
