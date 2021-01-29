@@ -40,13 +40,11 @@ nav span {
 }
 
 nav span a {
-
     text-decoration: none;
     line-height: 64px;
     color:rgb(255, 255, 255);
     font-weight: 550;
-    font-size:large;
-  
+    font-size:large;  
 }
 
 nav span:hover {
@@ -120,17 +118,29 @@ div.redes {
     /* inicio estilo contenido en 2 bloques pagina principal */
 
         /* test contenedor */
+        .contenedorbloques div{
+           
+
+            border-left: 15px;
+            border-right: 15px;
+
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
         .contenedorbloques {            
             text-align: center;
             }
     
-            .bloque{         
+            .bloque{       
+            
              display:  block;
             font-weight: 100;
             font-size:normal;
             }
     
             .bloqueizquierda{
+           
             text-align: right; 
             /* width: 30%;  */
             display: block;  
@@ -140,16 +150,19 @@ div.redes {
             .bloquederecha{
             text-align: left; 
             /* width: 30%;  */
-            display: inline-block;  
+            display: inline-block;   
             }
     
             .fotoizquierda img {
-            width: 100px; 
+             padding-top: 15px;
+            width: 180px; 
+            height: 100px; 
             /* object-fit: cover; */
             }
      
             .fotoderecha img {
-            width: 100px; 
+                width: 200px; 
+                height: 150px; 
             /* object-fit: cover; */
             }
       
@@ -304,38 +317,51 @@ div.redes {
 
     /* inicio estilo contenido en 2 bloques pagina principal */
 
+    .contenedorbloques{
+        
+        border-right: 10px;
+
+
+        padding-right: 10px;
+
+        
+        font-weight: 100;
+        font-size: normal;   
+    }
+    
         /* test contenedor */
         .contenedorbloques {
         text-align: center;
         }
 
         .bloque{
-        /* width: 40%;  */
+        width: 95%; 
         display: inline-block;  
         }
 
         .bloqueizquierda{
         text-align: right; 
-        width: 30%; 
+        width: 35%; 
         display: inline-block;  
         vertical-align: top;
-        margin-right: 10px; 
-        padding-right:10px;
+        margin-right: 5px; 
+        padding-right:5px; 
         
         }
 
         .bloquederecha{
         text-align: left; 
-        width: 30%; 
+        width: 35%; 
         display: inline-block; 
-        margin-left: 10px;  
-        padding-left:20px;
+ 
+        border-left: 5px; 
+        padding-left:5px; 
         }
 
         .fotoizquierda img {
         width: 150px; 
         /* object-fit: cover; */
-         padding-left:0px;
+       /*   padding-left:0px; */
        
         }
  
