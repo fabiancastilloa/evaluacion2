@@ -20,11 +20,7 @@
     background-color:var(--verdeclaro);
     height: 64px;    
 }
-
-/* .logo img{
-    width: 100%; 
-    min-width: 64px; 
-} */
+ 
 
 /* inicio estilo menu */
 nav span {
@@ -39,7 +35,7 @@ nav span {
     min-width: 190px; 
 }
 
-nav span a {
+nav a span {    
     text-decoration: none;
     line-height: 64px;
     color:rgb(255, 255, 255);
@@ -47,7 +43,7 @@ nav span a {
     font-size:large;  
 }
 
-nav span:hover {
+nav a span:hover {
     background-color: var(--verdeclaro);
     box-shadow: 0px 8px 10px 4px gray;
     position: relative;
@@ -56,6 +52,7 @@ nav span:hover {
  
 nav {
     width: 100%; 
+    background-color:var(--verdeclaro);
 }
 /* Fin estilo menu */
 
