@@ -153,3 +153,13 @@ div.redes {
           margin-top: 15%; 
       }
   /* FIN inicio estilo contenido en 2 bloques pagina principal */
+
+
+
+
+  /* inicio estilo footer */
+
+  .footer{
+    background-color: rgb(204, 199, 199);
+}
+  /* FIN estilo footer  */
