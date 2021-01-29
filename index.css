@@ -112,7 +112,7 @@ div.redes {
 
     /* hace que la fila redes no se ordene 
     en columnas, solo fila con resolucion baja*/
-    min-width: 400px;  
+   /*  min-width: 400px;   */
 }
 /* fin estilo redes sociales */
 
@@ -154,8 +154,118 @@ div.redes {
       }
   /* FIN inicio estilo contenido en 2 bloques pagina principal */
 
+/* inicio estilo galeria principal */
+/* galeria mixta para resolucion menor que 401 */
+ 
+.contenedor{
+    display:grid;
+    grid-template-columns: auto auto auto;
 
+    grid-template-rows: 24px 
+                        24px
+                        24px 
+                        24px 
+                        24px 
+                        24px  
+                        24px ;
+     
 
+    }
+    
+    .item{
+   
+    background-color:var(--verdeclaro);
+
+    /* este borde solo se hizo para diseñar la tabla  */
+/*     border : 1px solid ; */
+
+    text-align: center; 
+    /* height: 6ch; */
+    }
+    
+    .item:nth-child(1){
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    }
+    
+    .item:nth-child(2){
+    grid-column: 2 / 3;
+    grid-row: 1 / 6;
+    }
+        
+    .item:nth-child(3){
+    grid-column: 3 / 4;
+    grid-row:  1 / 7;
+    }
+    
+    .item:nth-child(4){
+    grid-column: 1 / 2;
+    grid-row: 5 / 8;
+    }
+    
+    .item:nth-child(5){
+    grid-column: 2/ 3;
+    grid-row: 6 / 10;
+    }
+    
+    .item:nth-child(6){
+    grid-column: 3 / 4;
+    grid-row: 7 / 10;
+    }
+    
+    .item:nth-child(7){
+    grid-column: 1 / 2;
+    grid-row: 8 / 10;
+    }
+
+    /* inicio estilo galeria  */
+.fotoperrochica{
+    /*  height: 80px; */
+     width: 80px;
+     overflow: hidden;
+    /*  height: 50%; */
+    display:block;
+    margin:0px auto;
+ }
+ 
+ #ft1, #ft4, #ft7{
+     width: 130px;
+     height: 80px;
+ }
+ 
+ #ft2, #ft5 {
+     width: 80px;
+     height: 130px;
+ }
+ 
+ #ft3  {
+     width: 120px;
+     height: 130px;
+ }
+ 
+ #ft6  {
+     width: 130px;
+     height: 80px;
+ }
+ 
+
+/* FIN galeria mixta para resolucion menor que 401 */
+
+/* inicio estilo paginas individuales perritos */
+
+.perritoindividual{
+    /* height: 200px; */
+    /* width: 200px;  */
+    overflow: hidden;
+    height: auto;
+}
+ 
+.perritoindividual img {
+   /*  width: 100%; */
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
 
   /* inicio estilo footer */
 
